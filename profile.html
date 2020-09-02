@@ -3,16 +3,60 @@
 <head>
 <style> 
 
-.text-align-center{
-    style="text-align: center;"
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 500%;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+.sun {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;   
+  background: -webkit-radial-gradient(bottom, circle, rgba(242,248,247,1) 0%,rgba(249,249,28,1) 3%,rgba(247,214,46,1) 8%, rgba(248,200,95,1) 12%,rgba(201,165,132,1) 30%,rgba(115,130,133,1) 51%,rgba(46,97,122,1) 85%,rgba(24,75,106,1) 100%);
+  background: -moz-radial-gradient(bottom, circle, rgba(242,248,247,1) 0%,rgba(249,249,28,1) 3%,rgba(247,214,46,1) 8%, rgba(248,200,95,1) 12%,rgba(201,165,132,1) 30%,rgba(115,130,133,1) 51%,rgba(46,97,122,1) 85%,rgba(24,75,106,1) 100%);
+  background: -ms-radial-gradient(bottom, circle, rgba(242,248,247,1) 0%,rgba(249,249,28,1) 3%,rgba(247,214,46,1) 8%, rgba(248,200,95,1) 12%,rgba(201,165,132,1) 30%,rgba(115,130,133,1) 51%,rgba(46,97,122,1) 85%,rgba(24,75,106,1) 100%);
+  
+  z-index: 10;
+  opacity: 0.5;
+  }
+
+  .water {
+  overflow: hidden;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50%;
+  background-repeat: no-repeat;   
+    background: -webkit-linear-gradient(bottom, rgba(0,25,45,1) 0%,rgba(14,71,117,1) 35%, rgba(26,126,174,1) 70%, rgba(62,168,220,1) 100%); 
+    background: -moz-linear-gradient(bottom, rgba(0,25,45,1) 0%,rgba(14,71,117,1) 35%, rgba(26,126,174,1) 70%, rgba(62,168,220,1) 100%); 
+    background: -ms-linear-gradient(bottom, rgba(0,25,45,1) 0%,rgba(14,71,117,1) 35%, rgba(26,126,174,1) 70%, rgba(62,168,220,1) 100%); 
+    background: linear-gradient(bottom, rgba(0,25,45,1) 0%,rgba(14,71,117,1) 35%, rgba(26,126,174,1) 70%, rgba(62,168,220,1) 100%); 
+
+  z-index: 10;
+}
+
+
+.titleholder {
+    height: 150px;
+    margin: 10px;
+    background-color: #cccccc;
+    background-image: radial-gradient(circle, rgba(87,102,206,1) 61%, rgba(63,238,251,1) 66%, rgba(115,0,255,1) 100%);
 }
 </style>
-   
-<h1 style="text-align-center";>title</h1>
+ 
+<h1>title</h1>
 
 </head>
 <body>
-
+    <div class="sun"></div>
+    <div class="titleholder" ></div> 
+    <div class="water"></div>
 <p>
 
 </p>
