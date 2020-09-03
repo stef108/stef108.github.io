@@ -2,12 +2,16 @@
 <html>
 <head>
 <style> 
+body {
+  background: radial-gradient(midnightblue,black);
+}
 
 h1 {
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 500%;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
 }
 
 h2 {
@@ -15,7 +19,8 @@ h2 {
   top: 25px;
   left: 25px;
   margin-bottom: -25px;
-  color: rgb(8, 252, 0)
+  color: rgb(255, 255, 255);
+  font-size: 175%;
 }
 
 pre {
@@ -27,7 +32,7 @@ pre {
 
 pre.border-left{
     margin: 5px;
-    border-left: 2px solid white;
+    border-left: 2px solid rgb(255, 255, 255);
     padding-left: 5px;
 }
 
@@ -43,7 +48,7 @@ pre.border-left{
   background: -ms-radial-gradient(bottom, circle, rgba(242,248,247,1) 0%,rgba(249,249,28,1) 3%,rgba(247,214,46,1) 8%, rgba(248,200,95,1) 12%,rgba(201,165,132,1) 30%,rgba(115,130,133,1) 51%,rgba(46,97,122,1) 85%,rgba(24,75,106,1) 100%);
   
   z-index: -1;
-  opacity: 0.5;
+  opacity: 1;
   }
 
   .water {
@@ -72,8 +77,9 @@ pre.border-left{
     background-image: radial-gradient(circle, rgb(26, 126, 174) 61%, rgba(63,238,251,1) 66%, rgba(115,0,255,1) 100%);
 
     z-index: -1;
-    opacity: 65%;
+    opacity: 100%;
 }
+
 .topnav a {
   margin-top: -25px;  
   float: left;
@@ -110,6 +116,7 @@ pre.border-left{
     <div class="sun"></div>
     <div class="titleholder" ></div> 
     <div class="water"></div>
+    <div class="black-background"></div>
 
 <h2>Onderwerp</h2>
 
@@ -122,7 +129,7 @@ tekst
 tekst
 tekst
 tekst
-tekst
+
 </pre>
 </p>
 
