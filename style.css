@@ -8,12 +8,17 @@
 
 section {
     position: relative;
+    background-image: url("galaxy4k.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     padding: 50px 0px;
+    color: white;
 }
 
 section .title {
@@ -21,7 +26,23 @@ section .title {
 }
 
 section .title h2 {
-    font-size: 24vw;
-    color: white;
+    font-size: 6vw;
     font-weight: 600;
+}
+
+section .title p {
+    font-size: 125%;
+}
+
+section .button {
+    height: 20px;
+    width: 20px;
+}
+
+.button definition {
+
+}
+
+.button theorie {
+
 }
