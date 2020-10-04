@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     outline: none;
-    font-family: fantasy;
+    font-family: monospace;
 }
 
 section {
@@ -14,4 +14,14 @@ section {
     align-items: center;
     justify-content: center;
     padding: 50px 0px;
+}
+
+section .title {
+    text-align: center;
+}
+
+section .title h2 {
+    font-size: 24vw;
+    color: white;
+    font-weight: 600;
 }
