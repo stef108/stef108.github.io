@@ -28,21 +28,29 @@ section .title {
 section .title h2 {
     font-size: 6vw;
     font-weight: 600;
+    margin: 0, 10;
 }
 
 section .title p {
     font-size: 125%;
 }
 
-section .button {
-    height: 20px;
-    width: 20px;
+a.button{
+    display:inline-block;
+    padding: 0.5em 1.5em;
+    border: 0.1em solid white;
+    margin: 0.5em 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    font-size: 125%;
+    font-weight: 300;
+    color: white;
+    text-align:center;
+    transition: all 0.5s;
+    text-decoration: none;
 }
-
-.button definition {
-
-}
-
-.button theorie {
-
+    
+a.button:hover{
+    color: black;
+    background-color: white;
 }
