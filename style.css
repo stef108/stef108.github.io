@@ -8,32 +8,41 @@
 
 section {
     position: relative;
-    background-image: url("galaxy4k.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 50px 0px;
-    color: white;
 }
 
-section .title {
+.first {
+    background-image: url("galaxy4k.jpeg");
+    color: white;
+    min-height: 100vh;
+}
+
+.title {
     text-align: center;
 }
 
-section .title h2 {
+.title h2 {
     font-size: 6vw;
     font-weight: 600;
-    margin: 0, 10;
+    margin: 0, 20;
 }
 
-section .title p {
+.h3 {
     font-size: 125%;
 }
+
+.title p {
+    font-size: 125%;
+    margin: 0, 20;
+}
+
 
 a.button{
     display:inline-block;
@@ -54,3 +63,9 @@ a.button:hover{
     color: black;
     background-color: white;
 }
+
+third {
+    color: white;
+    background-image: url("galaxy4k.jpeg");
+}
+
