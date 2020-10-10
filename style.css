@@ -68,9 +68,12 @@ a.button:hover{
 }
 
 .third {
+    background-position: left;
+}
+
+.third, .fifth {
     color: white;
     background-image: url("galaxy4k.jpeg");
-    background-position: left;
     text-align: left;
 }
 
@@ -82,5 +85,9 @@ a.button:hover{
 
 .sources {
     text-align: center;
+}
+
+.fifth {
+    background-position: right top;
 }
 
