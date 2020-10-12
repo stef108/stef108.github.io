@@ -6,6 +6,37 @@
     font-family: monospace;
 }
 
+nav {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: rgba(0,0,0,0.5);
+    padding: 0 100px;
+}
+
+nav ul {
+    float: right;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    position: relative;
+    display: block;
+    color: white;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
 section {
     position: relative;
     background-repeat: no-repeat;
@@ -71,7 +102,7 @@ a.button:hover{
     background-position: left;
 }
 
-.third, .fifth {
+.third, .fifth, .seventh {
     color: white;
     background-image: url("galaxy4k.jpeg");
     text-align: left;
@@ -91,3 +122,6 @@ a.button:hover{
     background-position: right top;
 }
 
+.seventh {
+    background-position: bottom left;
+}
