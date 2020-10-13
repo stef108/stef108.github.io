@@ -130,3 +130,7 @@ a.button:hover{
 ul {
     list-style: none !important;
 }
+
+.third a {
+    color:white;
+}
