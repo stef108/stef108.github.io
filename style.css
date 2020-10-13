@@ -46,6 +46,7 @@ section {
     justify-content: center;
     flex-direction: column;
     padding: 50px 0px;
+    list-style-type: none;
 }
 
 .first {
@@ -124,4 +125,8 @@ a.button:hover{
 
 .seventh {
     background-position: bottom left;
+}
+
+ul {
+    list-style: none !important;
 }
