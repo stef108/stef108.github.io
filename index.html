@@ -1,215 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style> 
-body {
-  background: radial-gradient(circle, midnightblue,black);
-}
-
-h1 {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 500%;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
-}
-
-h2 {
-  position: relative;
-  top: 25px;
-  left: 25px;
-  margin-bottom: -25px;
-  color: rgb(255, 255, 255);
-  font-size: 175%;
-}
-
-pre {
-    position: relative;
-    top: 40px;
-    color: rgb(255,255,255);
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    padding-bottom: 50px;
-}
-
-.sun {
-    position: absolute;
-    top: 0px;
-    left: 0%;
-    width: 100%;
-    height: 50%;
-    background-repeat: no-repeat;   
-  background: -webkit-radial-gradient(bottom, circle, rgba(242,248,247,1) 0%,rgba(249,249,28,1) 3%,rgba(247,214,46,1) 8%, rgba(248,200,95,1) 12%,rgba(201,165,132,1) 30%,rgba(115,130,133,1) 51%,rgba(46,97,122,1) 85%,rgba(24,75,106,1) 100%);
-  background: -moz-radial-gradient(bottom, circle, rgba(242,248,247,1) 0%,rgba(249,249,28,1) 3%,rgba(247,214,46,1) 8%, rgba(248,200,95,1) 12%,rgba(201,165,132,1) 30%,rgba(115,130,133,1) 51%,rgba(46,97,122,1) 85%,rgba(24,75,106,1) 100%);
-  background: -ms-radial-gradient(bottom, circle, rgba(242,248,247,1) 0%,rgba(249,249,28,1) 3%,rgba(247,214,46,1) 8%, rgba(248,200,95,1) 12%,rgba(201,165,132,1) 30%,rgba(115,130,133,1) 51%,rgba(46,97,122,1) 85%,rgba(24,75,106,1) 100%);
-  
-  z-index: -1;
-  opacity: 1;
-  }
-
-  .water {
-  overflow: hidden;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
-  height: 50%;
-  background-repeat: no-repeat;   
-    background: -webkit-linear-gradient(bottom, rgba(0,25,45,1) 0%,rgba(14,71,117,1) 35%, rgba(26,126,174,1) 70%, rgba(62,168,220,1) 100%); 
-    background: -moz-linear-gradient(bottom, rgba(0,25,45,1) 0%,rgba(14,71,117,1) 35%, rgba(26,126,174,1) 70%, rgba(62,168,220,1) 100%); 
-    background: -ms-linear-gradient(bottom, rgba(0,25,45,1) 0%,rgba(14,71,117,1) 35%, rgba(26,126,174,1) 70%, rgba(62,168,220,1) 100%); 
-    background: linear-gradient(bottom, rgba(0,25,45,1) 0%,rgba(14,71,117,1) 35%, rgba(26,126,174,1) 70%, rgba(62,168,220,1) 100%); 
-
-  z-index: -1;
-}
-
-
-.titleholder {
-    position: relative;
-    top: -160px;
-    height: 125px;
-    margin: 10px;
-    background-color: #cccccc;
-    background-image: radial-gradient(circle, rgb(26, 126, 174) 61%, rgba(63,238,251,1) 66%, rgba(115,0,255,1) 100%);
-
-    z-index: -1;
-    opacity: 100%;
-}
-
-.topnav a {
-  margin-top: -25px;  
-  float: left;
-  color: #659bff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #4b7bff;
-  color: rgb(255, 255, 255);
-}
-
-.topnav a.active {
-  background-color: #438eff;
-  color: white;
-}
-
-table, th ,td {
-        border: 1px solid black;
-        border-collapse: collapse;
-        font-family:"Trebuchet MS", Helvetica, sans-serif;
-    }
-
-    #Dashboard tr:nth-child(even){
-        background-color: #f2f2f2;
-        }
-    #Dashboard tr:hover {
-            background-color: #438eff;
-            }
-
-    #Dashboard th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #4400ff;
-  color: white;
-    }
-
-   .white-text {
-      color: white;
-    }
-
-img {
-  border-radius: 25%;
-  margin-top: 100px;
-  margin-left: 20px;
-}
-
-.picture {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.ostrea-link {
-  position: relative;
-  left: 150px;
-  margin: 20px;
-  font-size: 150%;
-}
-
-</style>
-
-<title>Pitch-hz</title>
-
-<h1>Stef</h1>
-
+    <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    <div class="topnav">
-        <a class="active" href="#home.html">Home</a>
-        <a href="dashboard.html">Dashboard</a>
-        <a href="profile.html">Profile</a>
-        <a href="questions.html">Questions</a>
-        <a href="motivation.html">Motivation</a>
-        <a href="profession.html">profession</a>
-      </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="questions.html">Questions</a></li>
+            <li><a href="motivation.html">Motivation</a></li>
+            <li><a href="profession.html">profession</a></li>
+        </ul>
+    </nav>
 
-    <div class="sun"></div>
-    <div class="titleholder" ></div> 
-    <div class="water"></div>
-    <div class="black-background"></div>
+    <section class="in-first">
+        <div class = "title">
+            <h2>STEF</h2>
+            <p>Wie ben ik?</p>
+        </div>
+        <div class = "button">
+            <a href="#jump01" class="button">Waarom past HBO bij mij?</a>
+        </div>
+        <div class = "button">
+            <a href="#jump02" class="button">Waarom deze opleiding?</a>
+        </div>
+    </section>
 
-<h2>Waarom ik HBO aankan</h2>
+    <section class="second">
+        <div class="title">
+            <h2 <a id="jump01"></a>HBO?</h2>
+        </div>
+        <div class="textdef">
+            <p>
+                <pre>
+                  <strong>Waarom heb ik HBO gekozen?</strong>
 
-<p>
-    <pre>
-Ik heb havo gedaan en zonder moeite afgesloten.
-Zonder moeite = geen motivatie ervoor en dus de vakken gedaan zonder te leren.
- 
- 
- 
-</pre>
-</p>
+                  HBO geeft veel vrijheid, ik hou van creatief werken en dan wil je niet vastzitten aan te veel regels.
+                  Op stage en hands-on experience lijkt me ook leuk plus erg belangrijk
+                  om een studie goed onder te knie te krijgen.
+                </pre>
+            </p> 
+        </div>
+    </section>
 
-<table width="100%" id="Dashboard">
-  <tr>
-      <th>Criteria</th>
-      <th>Hbo-Ict</th> 
-      <th>Economie</th>
-      <th>Scheikunde</th>
-  </tr>
-  <tr>
-      <td>Vind ik het leuk?</td>
-      <td>ja</td>
-      <td>nee</td>
-      <td>nee</td>
-  </tr>
-  <tr>
-      <td class="white-text">Kan ik thuiswerken?</td>
-      <td class="white-text">ja</td>
-      <td class="white-text">soms</td>
-      <td class="white-text">soms</td>
-  </tr>
-  <tr>
-      <td>Ben ik er goed in?</td>
-      <td>beetje</td>
-      <td>Zeer slecht</td>
-      <td>Extreem slecht</td>
-  </tr>
-</table>
+    <section class="in-third">
+        <div class="blur">
+            <div class="title">
+                <h2 <a id="jump02"></a>ICT?</h2>
+            </div>
+            <div class="texttheory">
+                <p>
+                    <pre>
+                      <strong>Waarom heb ik ICT gekozen?</strong>
 
-<div class="picture">
-  <img src="ostrea.jpeg" alt="ostrea-logo" width="300" height="300">
-  <img src="ostrea3.jpeg" alt="ostrea-building" width="300" height="300">
-  <img src="code.jpeg" alt="code" width="300" height="300">
-  <img src="middelburg.jpeg" alt="hz-gebouw-middelburg" width="300" height="300">
-</div>
+                      Ik heb altijd wel wat gehad met ICT, maar mijn keus voor ICT was niet zo sterk gemotiveerd als anderen.
+                      Ik wist het niet zeker dat dit hem ging worden. Ik ben overgehaald door de meeloopdag.
+                      En ik ben blij dat ik overgehaald ben want ik ben erachter gekomen dat ik ict gewoon heel leuk vind.
 
-<div class="ostrea-link">
-  <a href="https://www.ostrealyceum.nl/" style="color: white">Ostrea-Site</a>
-</div>
+                      <strong>Maar waarom dan deze opleiding?</strong>
 
-</body>    
+                      Zoals ik eerder zei werd ik overtuig door de meeloopdagen.
+                      Deze studie geeft je meerdere uitgangpunten waar je naartoe kan werken,
+                      hierdoor ben ik zelfverzekerd dat ik het ideale stuk van ICT voor mezelf kan kiezen.
+                    </pre>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    
+
+</body>
 </html>
