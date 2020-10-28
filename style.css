@@ -78,6 +78,22 @@ section {
     min-height: 100vh;
 }
 
+.faq-first {
+    background-image: url("autumn-1600x900-fall-tress-fog-foliage-5k-1773.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 100vh;
+}
+
+.hob-first {
+    background-image: url("city.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 100vh;
+}
+
 .dash-first {
     background-image: url("scenery.jpg");
     background-position: center left;
@@ -175,6 +191,20 @@ ul {
     background-position: right;
 }
 
+.faq-third {
+    color: white;
+    background-image: url("autumn-1600x900-fall-tress-fog-foliage-5k-1773.jpg");
+    text-align: left;
+    background-position: bottom left;
+}
+
+.hob-third{
+    color: white;
+    background-image: url("city.jpg");
+    text-align: left;
+    background-position: right;
+}
+
 .dash-third {
     color: white;
     background-image: url("scenery.jpg");
@@ -232,6 +262,12 @@ a.button2:hover{
     width: 40%;
 }
 
+.presetimg4 {
+    height: 300px;
+    width: 200px;
+}
+
+
 .table {
     border: 1px solid white;
     margin: auto;
@@ -266,3 +302,24 @@ a.button2:hover{
     color: white;
     overflow: hidden;
   }
+
+  a.button3{
+    display:inline-block;
+    padding: 0.5em 1.5em;
+    border: 0.1em solid white;
+    margin: 0.5em 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    font-size: 125%;
+    font-weight: 300;
+    background-color: rgb(255, 255, 255);
+    color: rgb(58, 8, 8);
+    text-align:center;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+.texttheory {
+    display: flex;
+    justify-content: center;
+}

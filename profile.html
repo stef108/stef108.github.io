@@ -1,169 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dashboard.html</title>
-<style>
-
-body {
-    height: 100%;
-    background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); 
-}
-
-.topnav a {
-  position: relative;
-  top: -20px;
-  margin-top: 25px;  
-  margin-bottom: 10px;
-  float: left;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #4b7bff;
-  color: rgb(255, 255, 255);
-}
-
-.topnav a.active {
-  background-color: navy;
-  color: white;
-}
-
-.head h2{
-    position: relative;
-    top: 50px;
-    color: white;
-    font-family:"Trebuchet MS", Helvetica, sans-serif;
-}
-
-.drinking{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    position: relative;
-    top: 0px;
-    margin: 20px;
-    color: white;
-    font-family:"Trebuchet MS", Helvetica, sans-serif;
-    font-size: 175%;
-}
-
-.hobbies {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    position: relative;
-    top: 25px;
-    color: navy;
-    font-family:"Trebuchet MS", Helvetica, sans-serif;
-    font-size: 200%;
-}
-
-img {
-  border-radius: 25%;
-  margin-top: -30px;
-  margin-left: 20px;
-}
-
-.series {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    position: relative;
-    top: 0px;
-    margin: 20px;
-    color: white;
-    font-family:"Trebuchet MS", Helvetica, sans-serif;
-    font-size: 175%;
-}
-
-.series2 img {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    position: relative;
-    top: 0px;
-}
-
-.games {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    position: relative;
-    top: 0px;
-    margin: 20px;
-    color: white;
-    font-family:"Trebuchet MS", Helvetica, sans-serif;
-    font-size: 175%;
-}
-
-.text li {
-    font-size: 125%;
-    list-style: upper-roman;
-    color: white;
-    font-family:"Trebuchet MS", Helvetica, sans-serif;
-}
-
-h3 {
-    font-family:"Trebuchet MS", Helvetica, sans-serif;
-    font-size: 125%;
-}
-</style>
-<title>Profile</title>
+    <title>Profile</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="questions.html">Questions</a></li>
+            <li><a href="motivation.html">Motivation</a></li>
+            <li><a href="profession.html">profession</a></li>
+        </ul>
+    </nav>
 
-<div class="topnav">
-    <a href="index.html">Home</a>
-    <a href="dashboard.html">Dashboard</a>
-    <a class="active" href="profile.html">Profile</a>
-    <a href="questions.html">Questions</a>
-    <a href="motivation.html">Motivation</a>
-    <a href="profession.html">profession</a>
-</div>
+    <section class="hob-first">
+        <div class = "title">
+            <h2>PROFILE</h2>
+        </div>
+        <div class = "button">
+            <a href="#jump01" class="button3">Wat zijn mijn hobbies?</a>
+        </div>
+        <div class = "button">
+            <a href="#jump02" class="button">Wat zijn mijn eigenschappen?</a>
+        </div>
+    </section>
 
-<div class="hobbies">
-<h3>My Hobbies</h3>
-</div>
+    <section class="second">
+        <div class="title">
+            <h2 <a id="jump01"></a>HOBBIES?</h2>
+        </div>
+        <div>
+            <h3>Drinken met vrienden</h3>
+            <h3>Watching series</h3>
+            <ul>
+                <li>lucifer</li>
+                <li>Brooklyn-99<br></li>
+            </ul>
+            <h3><br>Playing videogames</h3>
+            <h3>finding new fun stuff for this website</h3>
+        </div>
+    </section>
 
-<div class="drinking">
-    <p>Drinking with friends</p>
-</div>
+    <section class="hob-third">
+        <div class="blur">
+            <div class="title">
+                <h2 <a id="jump02"></a>EIGENSCHAPPEN?</h2>
+            </div>
+            <div class="texttheory">
+                <ol>
+                    <li>Focused</li>
+                    <li>Easy-going</li>
+                    <li>Helpful</li>
+                    <li>Positive</li>
+                    <li>Trustworthy</li>
+                </ol>
+            
+            </div>
+        </div>
+    </section>
 
-<img src="drinken1.jpeg.jpg" alt="drinken" width="250" height="250">
-<img src="drinken2.jpeg.jpg" alt="drinken" width="250" height="250">
-
-<div class="series">
-    <p>Watching Series</p>
-</div>
-
-<div class="series">
-<img src="brooklyn.jpeg" alt="Brooklyn-99" width="250" height="250">
-<img src="lucifer.jpeg" alt="Lucifer" width="250" height="250">
-</div>
-
-<div class="games">
-    <p>Playing Videogames</p>
-</div>
-
-<img src="csgo.jpeg" alt="Csgo" width="250" height="250">
-<img src="fc5.jpeg" alt="Far-cry-5" width="250" height="250">
-
-<h3>Charasterics</h3>
-
-<div class="text">
-    <ol>
-        <li>Focused</li>
-        <li>Easy-going</li>
-        <li>Helpful</li>
-        <li>Positive</li>
-        <li>Trustworthy</li>
-    </ol>
-</div>
+    
 
 </body>
+</html>
 

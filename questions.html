@@ -1,116 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dashboard.html</title>
-<style>
-
-body {
-    height: 100%;
-    background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); 
-    background-repeat: no-repeat;
-    background-attachment: no-attachment;
-}
-
-.topnav a {
-  position: relative;
-  top: -40px;
-  margin-top: 25px;  
-  margin-bottom: 10px;
-  float: left;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #4b7bff;
-  color: rgb(255, 255, 255);
-}
-
-.topnav a.active {
-  background-color: navy;
-  color: white;
-}
-
-.head h2{
-    position: relative;
-    top: 50px;
-    color: white;
-    font-family:"Trebuchet MS", Helvetica, sans-serif;
-}
-
-.text li {
-    top: 250px;
-    font-size: 125%;
-    list-style: upper-roman;
-    color: white;
-    font-family:"Trebuchet MS", Helvetica, sans-serif;
-}
-
-.text2 li {
-    top: 150px;
-    font-size: 125%;
-    list-style: upper-roman;
-    color: white;
-    font-family:"Trebuchet MS", Helvetica, sans-serif;
-}
-
-h3 {
-    font-family:"Trebuchet MS", Helvetica, sans-serif;
-    font-size: 125%;
-}
-
-</style>
-
-<title>questions</title>
+    <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="questions.html">Questions</a></li>
+            <li><a href="motivation.html">Motivation</a></li>
+            <li><a href="profession.html">profession</a></li>
+        </ul>
+    </nav>
 
-<div class="topnav">
-    <a href="index.html">Home</a>
-    <a href="dashboard.html">Dashboard</a>
-    <a href="profile.html">Profile</a>
-    <a class="active" href="questions.hmtl">Questions</a>
-    <a href="motivation.html">Motivation</a>
-<a href="profession.html">profession</a>
-</div>
+    <section class="faq-first">
+        <div class = "title">
+            <h2>VEELGESTELDE VRAGEN</h2>
+        </div>
+        <div class = "button">
+            <a href="#jump01" class="button">Questions</a>
+        </div>
+        <div class = "button">
+            <a href="#jump02" class="button">Answers</a>
+        </div>
+    </section>
 
-<div class="head">
-    <h2>Frequently Asked Questions</h2>
-</div>
+    <section class="second">
+        <div class="title">
+            <h2 <a id="jump01"></a>Questions</h2>
+        </div>
+        <div class="texttheory">
+            <ol>
+                <li>How can you print a document from your laptop at HZ?</li>
+                <li>How can you scan a document a send it to your laptop at HZ?</li>
+                <li>What do you need to do when you are sick / show symptoms of coronavirus?</li>
+                <li>How can you book a project space in one of the wings?</li>
+                <li>What are the instructions if you want to park your car at the HZ parking lot?</li>
+                </ol>        
+        </div>
+    </section>
 
-<p>
-    <pre>
-                                    
-    </pre>
-</p>
+    <section class="faq-third">
+        <div class="blur">
+            <div class="title">
+                <h2 <a id="jump02"></a>Answers</h2>
+            </div>
+            <div class="texttheory">
+                <ol>
+                    <li>By sending your file to the printer, going to the printer and check it out with your touch-id.</li>
+                    <li>Log yourself in with your touch-id, then choose the option scan. Press scan and send, Send to me, Yes, Start.</li>
+                    <li>Send a message through teams or call.</li>
+                    <li>Go to selfservice portal, reservations and visitors, then just follow the steps there.</li>
+                    <li>Go to selfservice portal, reservations and visitors, then pick car instead of room.</li>
+                </ol>            
+            </div>
+        </div>
+    </section>
 
-<h3>Questions</h3>
-
-<div class="text">
-    <ol>
-        <li>How can you print a document from your laptop at HZ?</li>
-        <li>How can you scan a document a send it to your laptop at HZ?</li>
-        <li>What do you need to do when you are sick / show symptoms of coronavirus?</li>
-        <li>How can you book a project space in one of the wings?</li>
-        <li>What are the instructions if you want to park your car at the HZ parking lot?</li>
-    </ol>
-</div>
-
-<h3>Answers</h3>
-
-<div class="text2">
-    <ol>
-        <li>By sending your file to the printer, going to the printer and check it out with your touch-id.</li>
-        <li>Log yourself in with your touch-id, then choose the option scan. Press scan and send, Send to me, Yes, Start.</li>
-        <li>Send a message through teams or call.</li>
-        <li>Go to selfservice portal, reservations and visitors, then just follow the steps there.</li>
-        <li>Go to selfservice portal, reservations and visitors, then pick car instead of room.</li>
-    </ol>
-</div>
+    
 
 </body>
+</html>
